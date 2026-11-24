@@ -6,7 +6,7 @@ Working instructions for this repository. Read this file first, then the documen
 
 An offline repair desk for a small shop or repair cafe: take an item in, diagnose it, reserve the last spare part once, record failed and passed tests, hand it back, and keep the earlier history when it returns. Python 3.12 standard library and SQLite, `127.0.0.1` only, fictional records.
 
-**Nothing is implemented yet.** The repository holds the plan, the delivery tooling and the backlog in epic #1. Commands marked planned below do not work yet. Do not describe a planned thing as working, and do not claim a passing baseline: there is none.
+**Only the scaffold exists; there is no product behaviour yet.** The repository holds the plan, the delivery tooling, the runnable scaffold and the backlog in epic #1. Commands marked planned below do not work yet. Do not describe a planned thing as working. The only baseline is the scaffold smoke tests.
 
 ## Sources of truth
 
@@ -40,8 +40,8 @@ Python 3.12 or 3.13. No install step is needed.
 
 | Purpose | Command | Status |
 |---|---|---|
-| Tests | `python -m unittest discover -s tests` | planned: real with the scaffold |
-| Help and version | `python -m repair_bench --help` | planned: real with the scaffold |
+| Tests | `python -m unittest discover -s tests` | real (scaffold) |
+| Help and version | `python -m repair_bench --help` | real (scaffold) |
 | Create a database | `python -m repair_bench init --data-dir ./data` | planned: #2 |
 | Run the app | `python -m repair_bench serve --port 8769 --data-dir ./data` | planned: #2 |
 | Check consistency | `python -m repair_bench check --data-dir ./data` | planned: #5 |
