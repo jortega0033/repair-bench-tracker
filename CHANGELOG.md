@@ -6,6 +6,7 @@ All notable changes to this project are recorded here, in the [Keep a Changelog]
 
 ### Added
 
+- Program goal, score and phases 1 to 6 (#42).
 - Delivery tooling: review gate hook, CI workflow, pull request and issue templates, `next-ticket` driver, UI quality rules and the `ui-ux-pro-max` and `unslop` skills.
 - Design tokens (Pipenzo Flow look) and their rules.
 - Runnable scaffold: `pyproject.toml`, module stubs, command-line parser, smoke tests and the `test` CI job.

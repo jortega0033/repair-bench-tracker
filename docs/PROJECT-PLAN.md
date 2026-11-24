@@ -1,5 +1,7 @@
 # Repair Bench Tracker
 
+> This document specifies phase 1 of the program in [#42](https://github.com/jortega0033/repair-bench-tracker/issues/42). Hour figures in it are early estimates for that phase; its open tickets add up to 65 to 110 hours (2026-11-24). Work that it defers is planned in the later phases only where the program names it.
+
 An offline repair desk that follows each item from intake through diagnosis, repair, testing and handoff. It gives a small bench one shared view of repair history and parts availability.
 
 ## Product requirements

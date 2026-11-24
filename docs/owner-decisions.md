@@ -36,3 +36,15 @@ The plan leaves these open. Each is a recommendation by the orchestrator, adopte
 | #5 | Interruption in tests | A child process is ended at a named point set by the test; no hook is reachable over HTTP. |
 | #6 | Print view | Browser print of the report page; no PDF library. |
 | none | Licence | MIT, already in the repository (`LICENSE`). No ticket changes it. |
+
+## Program decisions (owner, 2026-11-24)
+
+The owner accepted the goal and each suggestion below. They apply from the phase they name; the rules of `CLAUDE.md` hold for phase 1 as written.
+
+| Decision | Implemented in |
+|---|---|
+| The repository has a program goal above phase 1: a repair bench that reasons about faults, in 6 phases. | Program issue #42 |
+| The idea sounds like a small tracker. Suggested: send it as a repair bench that reasons about faults. | Program issue #42 |
+| Mains devices are dangerous. Suggested: simulated low-voltage devices only and a plain statement that nothing is advice for a real repair. | Program issue #42 |
+| Several benches need a network. Suggested: processes on one machine over loopback, with a simulated network in tests. | Program issue #42 |
+| Memberships, customers, prices and payments stay outside every phase. | Program issue #42 |
