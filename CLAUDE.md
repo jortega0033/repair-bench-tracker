@@ -41,10 +41,12 @@ Python 3.12 or 3.13. No install step is needed.
 | Purpose | Command | Status |
 |---|---|---|
 | Tests | `python -m unittest discover -s tests` | real (scaffold) |
-| Help and version | `python -m repair_bench --help` | real (scaffold) |
+| Help and version | `python -m repair_bench --help`, `python -m repair_bench --version` | real (scaffold) |
 | Create a database | `python -m repair_bench init --data-dir ./data` | planned: #2 |
+| Load demo data | `python -m repair_bench demo --data-dir ./data` | planned: #2 |
 | Run the app | `python -m repair_bench serve --port 8769 --data-dir ./data` | planned: #2 |
 | Check consistency | `python -m repair_bench check --data-dir ./data` | planned: #5 |
+| Export a report | `python -m repair_bench report --data-dir ./data` | planned: #6 |
 
 ## Architecture boundaries
 

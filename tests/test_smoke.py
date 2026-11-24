@@ -17,7 +17,7 @@ class SmokeTest(unittest.TestCase):
                 importlib.import_module(f"repair_bench.{name}")
 
     def test_expected_stub_imports(self):
-        importlib.import_module("expected")
+        importlib.import_module("tests.expected")
 
     def test_help_and_version(self):
         self.assertEqual(run("--help").returncode, 0)

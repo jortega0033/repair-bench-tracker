@@ -1,1 +1,1 @@
-# Responsibility: single entry for every write: key, revision, state, stock, response (#4, #5).
+# Responsibility: single entry for every write: key, revision, state, stock, response (#2 to #5).
