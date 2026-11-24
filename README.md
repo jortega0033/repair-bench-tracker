@@ -2,7 +2,7 @@
 
 An offline repair desk for intake, parts reservations, verification and handoff.
 
-This repository contains the plan for the first implementation epic.
+This repository contains the plan for the first implementation epic and a runnable scaffold. There is no product behaviour yet.
 
 - [Product requirements](docs/PROJECT-PLAN.md#product-requirements)
 - [Technical design](docs/PROJECT-PLAN.md#technical-design)
